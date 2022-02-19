@@ -1,4 +1,4 @@
 ---
 id: js-native
-label: Natives
+title: Natives
 ---

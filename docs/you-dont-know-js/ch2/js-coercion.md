@@ -1,4 +1,4 @@
 ---
 id: js-coercion
-label: 強制轉型
+title: 強制轉型
 ---

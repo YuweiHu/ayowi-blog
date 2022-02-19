@@ -6,24 +6,35 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
 
-function HomepageHeader() {
+function HomepageBody() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    // <header className={clsx("hero hero--primary", styles.heroBanner)}>
-    //   <div className="container">
-    //     <h1 className="hero__title">{siteConfig.title}</h1>
-    //     <p className="hero__subtitle">{siteConfig.tagline}</p>
-    //   </div>
-    // </header>
     <div
-      style={{ color: "red" }}
-      // style={{
-      //   width: "100%",
-      //   height: "calc(100% - 60px)",
-      //   backgroundImage: `url(/img/123.jpeg)`,
-      // }}
+      style={{
+        width: "100%",
+        height: "calc(100vh - 60px)",
+        backgroundImage: `url(/img/cloud.jpeg)`,
+        backgroundSize: "cover",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
     >
-      hshs
+      {/* <div
+        style={{
+          width: "1000px",
+          height: "400px",
+          backgroundColor: "white",
+          borderRadius: "20px",
+          border: "2px solid #E3E3E3",
+          fontFamily: "sans-serif",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <span style={{ fontSize: "100px" }}>Work In Progress...</span>
+      </div> */}
     </div>
   );
 }
@@ -32,13 +43,10 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <HomepageHeader />
-      {/* <main>
-        <HomepageFeatures />
-      </main> */}
+      <HomepageBody />
     </Layout>
   );
 }

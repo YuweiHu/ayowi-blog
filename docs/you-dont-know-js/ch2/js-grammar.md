@@ -1,4 +1,4 @@
 ---
 id: js-grammar
-label: 文法
+title: 文法
 ---

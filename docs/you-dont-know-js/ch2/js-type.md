@@ -1,4 +1,4 @@
 ---
 id: js-type
-label: 型別
+title: 型別
 ---

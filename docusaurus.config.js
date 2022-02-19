@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/open-book.png",
   organizationName: "YuweiHu", // Usually your GitHub org/user name.
   projectName: "ayowi-blog", // Usually your repo name.
 
@@ -44,7 +44,7 @@ const config = {
         title: "Ayowi",
         logo: {
           alt: "Logo",
-          src: "img/logo.svg",
+          src: "img/open-book.png",
         },
         items: [
           {
@@ -54,6 +54,7 @@ const config = {
             label: "Learning",
           },
           { to: "/blog", label: "Tech Blog", position: "left" },
+          // { to: "/resume", label: "Resume", position: "right" },
           // {
           //   href: "https://github.com/facebook/docusaurus",
           //   label: "GitHub",
