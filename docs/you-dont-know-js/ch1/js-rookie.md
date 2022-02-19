@@ -1,6 +1,4 @@
 ---
 id: js-rookie
-label: JS 入門
+title: JavaScript 入門
 ---
-
-- js-rookie

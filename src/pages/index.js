@@ -16,13 +16,14 @@ function HomepageHeader() {
     //   </div>
     // </header>
     <div
-      style={{
-        width: "100%",
-        height: "100%",
-        backgroundImage: `url("./123.jpeg")`,
-      }}
+      style={{ color: "red" }}
+      // style={{
+      //   width: "100%",
+      //   height: "calc(100% - 60px)",
+      //   backgroundImage: `url(/img/123.jpeg)`,
+      // }}
     >
-      haha
+      hshs
     </div>
   );
 }
