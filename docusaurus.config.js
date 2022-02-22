@@ -1,14 +1,13 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const codeTheme = require("prism-react-renderer/themes/vsDark");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Ayowi",
   tagline: "test",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://ayowi-blog.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -42,10 +41,10 @@ const config = {
       },
       navbar: {
         title: "Ayowi",
-        logo: {
-          alt: "Logo",
-          src: "img/open-book.png",
-        },
+        // logo: {
+        //   alt: "Logo",
+        //   src: "img/home.jpg",
+        // },
         items: [
           {
             type: "doc",
@@ -54,6 +53,8 @@ const config = {
             label: "Learning",
           },
           { to: "/blog", label: "Tech Blog", position: "left" },
+          { to: "/portfolio", label: "Portfolio", position: "left" },
+          { to: "/resume", label: "Resume", position: "left" },
           // { to: "/resume", label: "Resume", position: "right" },
           // {
           //   href: "https://github.com/facebook/docusaurus",
@@ -67,8 +68,8 @@ const config = {
         ],
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        defaultLanguage: "javascript",
+        theme: codeTheme,
       },
     }),
 };

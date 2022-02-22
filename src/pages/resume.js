@@ -16,9 +16,7 @@ const A = styled.div``;
 export default function Home() {
   return (
     <Layout>
-      <HomeContainer>
-        <img src="./img/home.jpg" width="200px" />
-      </HomeContainer>
+      <HomeContainer>WIP</HomeContainer>
     </Layout>
   );
 }

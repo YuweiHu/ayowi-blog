@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Button from "@mui/material/Button";
 import Layout from "@theme/Layout";
 
 const HomeContainer = styled.div`
@@ -11,14 +10,10 @@ const HomeContainer = styled.div`
   align-items: center;
 `;
 
-const A = styled.div``;
-
-export default function Home() {
+export default function Portfolio() {
   return (
     <Layout>
-      <HomeContainer>
-        <img src="./img/home.jpg" width="200px" />
-      </HomeContainer>
+      <HomeContainer>WIP</HomeContainer>
     </Layout>
   );
 }
