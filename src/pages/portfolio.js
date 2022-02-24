@@ -46,14 +46,13 @@ const ImageContainer = styled.div`
   align-items: center;
   align-self: end;
 
-  transition: border-color 1s ease;
-
   > span {
     display: none;
   }
   &:hover {
-    opacity: 0.9;
-    border: 2px solid;
+    opacity: 0.8;
+    border: 5px solid white;
+    border-radius: 10px;
 
     > span {
       width: 80%;
@@ -61,7 +60,7 @@ const ImageContainer = styled.div`
       background-size: 100% 66px;
       text-align: center;
       display: block;
-      color: black;
+      color: #424242;
       font-family: Dosis;
       font-size: 40px;
     }
@@ -142,7 +141,7 @@ export default function Portfolio() {
                 <span>DEMO</span>
               </ImageContainer>
               <DescriptionContainer>
-                A simple beats-maker app.
+                Recipe app with search feature.
                 <br />
                 Build by HTML / CSS / JavaScript.
               </DescriptionContainer>
@@ -156,9 +155,11 @@ export default function Portfolio() {
                 <span>DEMO</span>
               </ImageContainer>
               <DescriptionContainer>
-                A simple beats-maker app.
+                My doc / blog / portfolio web app.
                 <br />
-                Build by HTML / CSS / JavaScript.
+                Build by React in Docusauraus.
+                <br />
+                Deploy on Netlify.
               </DescriptionContainer>
             </Card>
           </PortfolioContainer>
