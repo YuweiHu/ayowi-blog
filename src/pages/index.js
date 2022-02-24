@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Button from "@mui/material/Button";
 import Layout from "@theme/Layout";
 
 const HomeContainer = styled.div`
@@ -10,8 +9,6 @@ const HomeContainer = styled.div`
   justify-content: center;
   align-items: center;
 `;
-
-const A = styled.div``;
 
 export default function Home() {
   return (

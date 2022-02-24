@@ -15,6 +15,8 @@ const config = {
   organizationName: "YuweiHu", // Usually your GitHub org/user name.
   projectName: "ayowi-blog", // Usually your repo name.
 
+  plugins: ["docusaurus-plugin-sass"],
+
   presets: [
     [
       "classic",
