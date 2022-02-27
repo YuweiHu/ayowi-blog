@@ -57,8 +57,8 @@ const config = {
             label: "Learning",
           },
           { to: "/blog", label: "Tech Blog", position: "left" },
-          { to: "/portfolio", label: "Portfolio", position: "left" },
-          { to: "/resume", label: "Resume", position: "left" },
+          // { to: "/portfolio", label: "Portfolio", position: "left" },
+          // { to: "/resume", label: "Resume", position: "left" },
           // { to: "/resume", label: "Resume", position: "right" },
           // {
           //   href: "https://github.com/facebook/docusaurus",
