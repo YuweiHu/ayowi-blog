@@ -7,20 +7,20 @@ const you_dont_know_js_sidebar = {
       label: "開始之前",
       id: "you-dont-know-js/js-intro",
     },
+    // {
+    //   type: "category",
+    //   label: "CH1 - 導讀",
+    //   items: [
+    //     {
+    //       type: "doc",
+    //       label: "JavaScript 入門",
+    //       id: "you-dont-know-js/ch1/js-rookie",
+    //     },
+    //   ],
+    // },
     {
       type: "category",
-      label: "CH1 - 導讀",
-      items: [
-        {
-          type: "doc",
-          label: "JavaScript 入門",
-          id: "you-dont-know-js/ch1/js-rookie",
-        },
-      ],
-    },
-    {
-      type: "category",
-      label: "CH2 - 型別與文法",
+      label: "CH1 - 型別與文法",
       items: [
         { type: "doc", label: "型別", id: "you-dont-know-js/ch2/js-type" },
         { type: "doc", label: "值", id: "you-dont-know-js/ch2/js-value" },

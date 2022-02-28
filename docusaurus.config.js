@@ -45,10 +45,6 @@ const config = {
       },
       navbar: {
         title: "Ayowi",
-        // logo: {
-        //   alt: "Logo",
-        //   src: "img/home.jpg",
-        // },
         items: [
           {
             type: "doc",
