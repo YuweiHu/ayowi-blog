@@ -1,6 +1,6 @@
-import React from "react";
+import { useEffect } from "react";
 import styled from "styled-components";
-import Layout from "@theme/Layout";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 const HomeContainer = styled.div`
   width: 100%;
@@ -11,9 +11,9 @@ const HomeContainer = styled.div`
 `;
 
 export default function Home() {
-  return (
-    <Layout>
-      <HomeContainer>Ayowi Blog</HomeContainer>
-    </Layout>
-  );
+  const temp = useBaseUrl("/docs/intro");
+  useEffect(() => {
+    window.location.href = temp;
+  }, []);
+  return null;
 }
