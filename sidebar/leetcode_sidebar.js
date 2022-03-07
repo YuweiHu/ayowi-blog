@@ -18,6 +18,11 @@ const leetcode_sidebar = {
         },
         {
           type: "doc",
+          label: "0003 Longest Substring Without Repeating Characters",
+          id: "leetcode/Hash Table/leetcode-0003",
+        },
+        {
+          type: "doc",
           label: "0013 Roman to Integer",
           id: "leetcode/Hash Table/leetcode-0013",
         },
