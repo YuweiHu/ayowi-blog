@@ -11,9 +11,9 @@ const HomeContainer = styled.div`
 `;
 
 export default function Home() {
-  const temp = useBaseUrl("/docs/intro");
+  const url = useBaseUrl("/blog");
   useEffect(() => {
-    window.location.href = temp;
+    window.location.href = url;
   }, []);
   return null;
 }
