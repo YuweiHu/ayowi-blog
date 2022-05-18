@@ -1,5 +1,6 @@
 const you_dont_know_js_sidebar = require("./you_dont_know_js_sidebar");
 const leetcode_sidebar = require("./leetcode_sidebar");
+const front_end_interview_sidebar = require("./front_end_interview_sidebar");
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
@@ -11,6 +12,7 @@ const sidebars = {
     },
     you_dont_know_js_sidebar,
     leetcode_sidebar,
+    front_end_interview_sidebar,
   ],
 };
 
