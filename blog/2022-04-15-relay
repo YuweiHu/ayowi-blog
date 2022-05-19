@@ -1,4 +1,4 @@
----
+<!-- ---
 slug: relay
 title: Relay 初體驗
 author: Cliff Hu
@@ -10,6 +10,6 @@ tags: [react, relay]
 
 前一陣子因為覺得自己在工作有所停滯，非常不安的向主管釋出「我要玩新東西」的訊息，搞得自己一身腥。一下子引入 GraphQL 替換掉 RESTful API，將 React 升級至 18 版，然後在 data fetch 的機制上，引入 React 生態系的 Relay 框架（誠心建議：跳脫舒適圈是好事，但不要跳太大步...）。
 
-其實我好像應該先講 GraphQL 再講 Relay，畢竟 GraphQL 是 Relay 的先備知識，但這裡是我的小天地，我想幹嘛就幹嘛...所以就先聊聊 Relay 吧！
+其實我好像應該先講 GraphQL 再講 Relay，畢竟 GraphQL 是 Relay 的先備知識，但這裡是我的小天地，我想幹嘛就幹嘛...所以就先聊聊 Relay 吧！ -->
 
 <!-- truncate -->
