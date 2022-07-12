@@ -9,8 +9,13 @@ const leetcode_sidebar = {
     },
     {
       type: "category",
-      label: "Array",
+      label: "DS - Array",
       items: [
+        {
+          type: "doc",
+          label: "0036 Valid Sudoku",
+          id: "leetcode/Array/leetcode-0036",
+        },
         {
           type: "doc",
           label: "0053 Maximum Subarray",
@@ -45,7 +50,7 @@ const leetcode_sidebar = {
     },
     {
       type: "category",
-      label: "Hash Table",
+      label: "DS - Hash Table",
       items: [
         {
           type: "doc",
@@ -71,12 +76,17 @@ const leetcode_sidebar = {
     },
     {
       type: "category",
-      label: "Link List",
+      label: "DS - Link List",
       items: [
         {
           type: "doc",
           label: "0021 Merge Two Sorted Lists",
           id: "leetcode/Link List/leetcode-0021",
+        },
+        {
+          type: "doc",
+          label: "0083 Remove Duplicates from Sorted List",
+          id: "leetcode/Link List/leetcode-0083",
         },
         {
           type: "doc",
@@ -87,6 +97,32 @@ const leetcode_sidebar = {
           type: "doc",
           label: "0203 Remove Linked List Elements",
           id: "leetcode/Link List/leetcode-0203",
+        },
+        {
+          type: "doc",
+          label: "0206 Reverse Linked List",
+          id: "leetcode/Link List/leetcode-0206",
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Algo - Binary Search",
+      items: [
+        {
+          type: "doc",
+          label: "0035 Search Insert Position",
+          id: "leetcode/Binary Search/leetcode-0035",
+        },
+        {
+          type: "doc",
+          label: "0278 First Bad Version",
+          id: "leetcode/Binary Search/leetcode-0278",
+        },
+        {
+          type: "doc",
+          label: "0704 Binary Search",
+          id: "leetcode/Binary Search/leetcode-0704",
         },
       ],
     },
