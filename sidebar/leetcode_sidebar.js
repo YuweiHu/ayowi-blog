@@ -107,6 +107,27 @@ const leetcode_sidebar = {
     },
     {
       type: "category",
+      label: "DS - Tree",
+      items: [
+        {
+          type: "doc",
+          label: "0094 Binary Tree Inorder Traversal",
+          id: "leetcode/Tree/leetcode-0094",
+        },
+        {
+          type: "doc",
+          label: "0144 Binary Tree Preorder Traversal",
+          id: "leetcode/Tree/leetcode-0144",
+        },
+        {
+          type: "doc",
+          label: "0145 Binary Tree Postorder Traversal",
+          id: "leetcode/Tree/leetcode-0145",
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Algo - Binary Search",
       items: [
         {
