@@ -111,6 +111,11 @@ const leetcode_sidebar = {
       items: [
         {
           type: "doc",
+          label: "Tree Note",
+          id: "leetcode/Tree/ds-tree",
+        },
+        {
+          type: "doc",
           label: "0094 Binary Tree Inorder Traversal",
           id: "leetcode/Tree/leetcode-0094",
         },
@@ -123,6 +128,32 @@ const leetcode_sidebar = {
           type: "doc",
           label: "0145 Binary Tree Postorder Traversal",
           id: "leetcode/Tree/leetcode-0145",
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Algo - Two Pointers",
+      items: [
+        {
+          type: "doc",
+          label: "0167 Two Sum II - Input Array Is Sorted",
+          id: "leetcode/Two Pointers/leetcode-0167",
+        },
+        {
+          type: "doc",
+          label: "0189 Rotate Array",
+          id: "leetcode/Two Pointers/leetcode-0189",
+        },
+        {
+          type: "doc",
+          label: "0283 Move Zeroes",
+          id: "leetcode/Two Pointers/leetcode-0283",
+        },
+        {
+          type: "doc",
+          label: "0977 Squares of a Sorted Array",
+          id: "leetcode/Two Pointers/leetcode-0977",
         },
       ],
     },
